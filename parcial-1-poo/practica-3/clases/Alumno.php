@@ -1,5 +1,5 @@
 <?php
-require_once "Usuario.php";
+require_once __DIR__ . "/Usuario.php";
 
 class Alumno extends Usuario {
     private $matricula;
